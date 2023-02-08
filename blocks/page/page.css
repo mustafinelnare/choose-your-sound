@@ -1,0 +1,10 @@
+.page {
+  max-width: 1600px;
+  min-width: 320px;
+  height: 100vh;
+  font-family: 'Poppins';
+  font-weight: 600;
+  background: #0E0E0E;
+  color: #fff;
+  margin: auto;
+}

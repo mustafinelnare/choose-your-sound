@@ -1,0 +1,15 @@
+.header__button {
+  font-size: 20px;
+  width: 180px;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: inherit;
+}
+
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+}

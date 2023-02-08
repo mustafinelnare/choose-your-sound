@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  border-bottom: 2px solid rgba(84, 84, 84, 70%);
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

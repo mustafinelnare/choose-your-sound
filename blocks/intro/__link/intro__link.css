@@ -1,0 +1,11 @@
+.intro__link {
+  font-size: 25px;
+  text-decoration: none;
+  color: #9A9A9A;
+}
+
+.intro__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: underline;
+}

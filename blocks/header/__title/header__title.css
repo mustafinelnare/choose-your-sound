@@ -2,3 +2,16 @@
   font-size: 30px;
   margin: auto auto auto 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__title {
+    font-size: 20px;
+    max-width: 230px;
+  }
+}

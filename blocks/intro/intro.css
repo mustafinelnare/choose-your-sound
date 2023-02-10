@@ -3,5 +3,28 @@
   flex-direction: row;
   max-width: 800px;
   width: 100%;
-  margin: 70px auto auto;
+  margin: 40px auto auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    max-width: 650px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .intro {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 290px;
+    margin-top: 40px;
+  }
 }

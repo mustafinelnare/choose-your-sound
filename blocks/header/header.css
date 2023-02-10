@@ -4,8 +4,25 @@
   justify-content: space-between;
   max-width: 800px;
   width: 100%;
-  border-bottom: 2px solid rgba(84, 84, 84, 70%);
   margin: auto;
   padding-top: 30px;
-  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    max-width: 650px;
+    padding-top: 22px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    max-width: 290px;
+  }
 }

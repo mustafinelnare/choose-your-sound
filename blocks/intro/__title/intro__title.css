@@ -2,3 +2,9 @@
   font-size: 35px;
   margin: 0;
 }
+
+@media screen and (max-width: 750px) {
+  .intro__title {
+    font-size: 27px;
+  }
+}

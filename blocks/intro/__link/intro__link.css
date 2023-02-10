@@ -9,3 +9,15 @@
   opacity: 0.8;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1000px) {
+  .intro__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .intro__link {
+    font-size: 20px;
+  }
+}

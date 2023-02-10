@@ -4,5 +4,23 @@
   justify-content: space-between;
   max-width: 800px;
   width: 100%;
-  margin: 70px auto auto;
+  margin: 30px auto auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    max-width: 290px;
+  }
 }

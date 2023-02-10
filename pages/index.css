@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url(../blocks/page/page.css);
+@import url(../blocks/video-frame/video-frame.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__button/header__button.css);

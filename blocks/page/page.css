@@ -1,10 +1,16 @@
 .page {
-  max-width: 1600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+
   min-width: 320px;
-  height: 100vh;
   font-family: 'Poppins';
   font-weight: 600;
-  background: #0E0E0E;
+  /* background: #0E0E0E; */
   color: #fff;
   margin: auto;
+  z-index: 1;
 }

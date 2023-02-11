@@ -14,5 +14,5 @@ button.addEventListener('click', function () {
   title.textContent = randomElement.title;
   subtitle.textContent = randomElement.subtitle;
   image.src = randomElement.image;
-  link.src = randomElement.link;
+  link.href = randomElement.link;
 });
